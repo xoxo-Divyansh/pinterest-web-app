@@ -1,0 +1,71 @@
+<% include ./partials/header.ejs %>
+<div class="w-full h-screen flex items-center justify-center bg-[url('https://i.pinimg.com/1200x/81/6e/c8/816ec81ed09a6f3d865f9a085d0b4092.jpg')]">
+  <div
+    class="w-[25vw] bg-white px-10 py-4 rounded-[30px] shadow-lg shadow-gray-500"
+  >
+    <div
+      class="w-10 h-10 rounded-full mx-auto mb-2 flex items-center justify-center"
+    >
+      <img
+        src="https://www.freepnglogos.com/uploads/pinterest-logo-circle-p-in-red-png-24.png"
+        alt="pintrest logo"
+        class="h-full w-full object-contain"
+      />
+    </div>
+    <h1
+      class="capitalize text-3xl text-center tracking-tighter font-semibold text-zinc-700 leading-none mb-3"
+    >
+     Create New Account.
+    </h1>
+    <form action="/register" method="post">
+      <input 
+        name="username"
+        class="block mt-2 w-full px-3 py-2 border-2 border-gray-300 rounded-xl bg-zinc-200"
+        type="text"
+        placeholder="username"
+      />
+      <input 
+        name="fullname"
+        class="block mt-2 w-full px-3 py-2 border-2 border-gray-300 rounded-xl bg-zinc-200 
+        [appearance:textfield] [&::-webkit-inner-spin-button]:appearance-none [&::-webkit-outer-spin-button]:appearance-none"
+        type="text"
+        placeholder="full name"
+      />
+      <input 
+        name="email"
+        class="block mt-2 w-full px-3 py-2 border-2 border-gray-300 rounded-xl bg-zinc-200"
+        type="text"
+        placeholder="email"
+      />
+      <input 
+        name="password"
+        class="block mt-2 w-full px-3 py-2 border-2 border-gray-300 rounded-xl bg-zinc-200"
+        type="password"
+        placeholder="password"
+      />
+
+      <input 
+        name="submit"
+        class="block mt-2 w-full px-3 py-2 border-2 bg-red-500 text-white rounded-full"
+        type="submit"
+        value="Create New Account"
+      />
+      <p
+        class="mt-4 px-7 tracking-tighter text-xs leading-none text-center text-gray-500"
+      >
+        By continuing, you agree to Pinterest's
+        <span class="underline"><i>Terms of Service</i></span> and acknowledge
+        you've read our
+        <span class="underline"
+          ><i>Privacy Policy. Notice at collection.</i></span
+        >
+      </p>
+    </form>
+    <a
+      href="/"
+      class="block text-center mt-5 text-sm tracking-tighter text-blue-500"
+      >Already have an account? Login</a
+    >
+  </div>
+</div>
+<% include ./partials/footer.ejs %>

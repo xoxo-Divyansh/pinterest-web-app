@@ -1,0 +1,58 @@
+<% include ./partials/header.ejs %>
+<div
+  class="w-full h-screen flex items-center justify-center bg-center bg-cover
+   bg-[url('https://i.pinimg.com/1200x/e4/a9/32/e4a93239e45ff0b14181c07e5923bcaf.jpg')]"
+>
+  <div class="w-[25vw] bg-white-100 backdrop-blur-sm px-10 py-4 rounded-[30px]">
+    <div
+      class="w-10 h-10 rounded-full mx-auto mb-2 flex items-center justify-center"
+    >
+      <img
+        src="https://www.freepnglogos.com/uploads/pinterest-logo-circle-p-in-red-png-24.png"
+        alt="pintrest logo"
+        class="h-full w-full object-contain"
+      />
+    </div>
+    <h1
+      class="capitalize text-3xl text-center tracking-tighter font-semibold text-zinc-400 leading-none mb-3"
+    >
+      welcome to pintrest.
+    </h1>
+    <form action="/login" method="post">
+      <input 
+        name="username"
+        class="block mt-2 w-full px-3 py-2 border-2 border-gray-300 rounded-md bg-zinc-200"
+        type="text"
+        placeholder="username"
+      />
+      <input 
+        name="password"
+        class="block mt-2 w-full px-3 py-2 border-2 border-gray-300 rounded-md bg-zinc-200"
+        type="password"
+        placeholder="password"
+      />
+      <a href="#" class="inline-block text-sm text-blue-500"
+        >Forgot password?</a
+      >
+      <input 
+        name="submit"
+        class="block mt-2 w-full px-3 py-2 border-2 bg-red-500 text-white rounded-full"
+        type="submit"
+        value="login"
+      />
+      <p
+        class="mt-4 px-7 tracking-tighter text-xs leading-none text-center text-gray-300"
+      >
+        By continuing, you agree to Pinterest's
+        <span class="underline"><i>Terms of Service</i></span> and acknowledge
+        you've read our
+        <span class="underline"
+          ><i>Privacy Policy. Notice at collection.</i></span
+        >
+      </p>
+    </form>
+    <a href="/register" class="block text-center mt-5 text-sm tracking-tighter text-blue-500"
+      >Don't have an account? Sign up</a>
+  </div>
+</div>
+<% include ./partials/footer.ejs %>

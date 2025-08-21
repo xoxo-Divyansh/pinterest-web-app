@@ -1,0 +1,31 @@
+<% include ./partials/header.ejs %>
+<!-- views/feed.ejs -->
+<div class="w-full min-h-screen bg-gray-800 text-white">
+  <h1 class="text-2xl font-bold text-center italic py-5">Feed !!</h1>
+  <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-4 p-10">
+    <% posts.forEach((post, index) => { %>
+    <div class="mb-4 break-inside-avoid bg-zinc-800 rounded-lg shadow-md overflow-hidden">
+      <img src="/images/uploads/<%= post.image %>" alt="Post <%= index + 1 %>" class="w-full h-auto object-cover" />
+      <div class="p-3 text-white">
+        <h3 class="text-md font-mono text-gray-200 tracking-tighter">Uploaded by @ <span class="text-teal-600 font-semibold tracking-tight uppercase"><%= post.user?.username || "Unknown" %></span></h3>
+        <p class="text-sm text-gray-500 underline line-clamp-2">
+          <span class="font-mono tracking-tight text-yellow-500 no-underline inline-block">Posted on:</span>
+          <%= new Date(post.date).toLocaleString('en-IN', {
+              weekday: 'short',
+              year: 'numeric',
+              month: 'short',
+              day: '2-digit',
+              hour: '2-digit'
+            }) || 'Unknown Date' %>
+        </p>
+        <% if (post.description) { %>
+        <p class="text-sm text-gray-100">
+          <span class="font-mono tracking-tight text-yellow-500">Disc:</span> <%= post.description %>
+        </p>
+        <% } %>
+      </div>
+    </div>
+    <% }) %>
+  </div>
+</div>
+<% include ./partials/footer.ejs %>
