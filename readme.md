@@ -21,7 +21,7 @@
 
 Showcases weather cards in a Pinterest-style masonry layout.
 
-![Feed Screenshot](<./assets/screenshots/localhost_3000_feed%20(1).png/>)
+![Feed Screenshot](<./assets/screenshots/localhost_3000_feed%20(1).png>)
 
 ---
 
@@ -43,7 +43,7 @@ User-friendly registration form with validation.
 
 ### 👤 Profile Page
 
-Displays user-specific weather cards and saved preferences.
+Displays user-specific cards and saved preferences.
 
 ![Profile Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022641.png)
 
@@ -57,4 +57,3 @@ Displays user-specific weather cards and saved preferences.
 | Axios    | MongoDB           | Responsive UI | JWT Auth, Toast Alerts |
 
 ## 📁 Project Structure
-  
