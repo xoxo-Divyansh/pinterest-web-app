@@ -1,7 +1,11 @@
 # pinterest-web-app
-- A Pinterest-like web app with authentication, image uploads and user profiles/feed built using MEARN stack.
 
-- A visually engaging full-stack weather application inspired by Pinterest's layout and interactivity. Built with a modern tech stack, this app delivers real-time weather data, responsive design, and a sleek user experience.
+- A Pinterest-like web app with authentication, image uploads and user
+  profiles/feed built using MEARN stack.
+
+- A visually engaging full-stack weather application inspired by Pinterest's
+  layout and interactivity. Built with a modern tech stack, this app delivers
+  real-time weather data, responsive design, and a sleek user experience.
 
 ## 🚀 Features
 
@@ -14,13 +18,15 @@
 ## 🖼️ Screenshots
 
 ### 🏠 Feed Page
+
 Showcases weather cards in a Pinterest-style masonry layout.
 
-![Feed Screenshot](./assets/screenshots/localhost_3000_feed%20(1).png/)
+![Feed Screenshot](<./assets/screenshots/localhost_3000_feed%20(1).png/>)
 
 ---
 
 ### 🔑 Login Page
+
 Simple and clean login interface with responsive design.
 
 ![Login Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022548.png)
@@ -28,6 +34,7 @@ Simple and clean login interface with responsive design.
 ---
 
 ### 📝 Register Page
+
 User-friendly registration form with validation.
 
 ![Register Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022603.png)
@@ -35,6 +42,7 @@ User-friendly registration form with validation.
 ---
 
 ### 👤 Profile Page
+
 Displays user-specific weather cards and saved preferences.
 
 ![Profile Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022641.png)
@@ -43,9 +51,10 @@ Displays user-specific weather cards and saved preferences.
 
 ## 🛠️ Tech Stack
 
-| Frontend        | Backend         | Styling        | Extras                  |
-|----------------|-----------------|----------------|--------------------------|
-| React.js        | Node.js + Express | Tailwind CSS   | Chart.js, Masonry.js     |
-| Axios           | MongoDB         | Responsive UI  | JWT Auth, Toast Alerts   |
+| Frontend | Backend           | Styling       | Extras                 |
+| -------- | ----------------- | ------------- | ---------------------- |
+| React.js | Node.js + Express | Tailwind CSS  | Masonry.js             |
+| Axios    | MongoDB           | Responsive UI | JWT Auth, Toast Alerts |
 
 ## 📁 Project Structure
+  
