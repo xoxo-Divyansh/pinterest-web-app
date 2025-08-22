@@ -16,28 +16,28 @@
 ### 🏠 Feed Page
 Showcases weather cards in a Pinterest-style masonry layout.
 
-![Feed Screenshot](./assets/screenshorts/localhost_3000_feed%20(1).png/)
+![Feed Screenshot](./assets/screenshots/localhost_3000_feed%20(1).png/)
 
 ---
 
 ### 🔑 Login Page
 Simple and clean login interface with responsive design.
 
-![Login Screenshot](./assets/screenshorts/Screenshot%202025-08-22%20022548.png)
+![Login Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022548.png)
 
 ---
 
 ### 📝 Register Page
 User-friendly registration form with validation.
 
-![Register Screenshot](./assets/screenshorts/Screenshot%202025-08-22%20022603.png)
+![Register Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022603.png)
 
 ---
 
 ### 👤 Profile Page
 Displays user-specific weather cards and saved preferences.
 
-![Profile Screenshot](./assets/screenshorts/Screenshot%202025-08-22%20022641.png)
+![Profile Screenshot](./assets/screenshots/Screenshot%202025-08-22%20022641.png)
 
 ---
 
